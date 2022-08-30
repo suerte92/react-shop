@@ -25,7 +25,7 @@ const Login = () => {
 					<label htmlFor="password" className="label">Password</label>
 					<input type="password" name="password" placeholder="*********" className="input input-password" />
 					<button
-						type="submit"
+						
 						onClick={handleSubmit}
 						className="primary-button login-button">
 						Log in

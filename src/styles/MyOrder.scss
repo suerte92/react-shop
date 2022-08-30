@@ -38,7 +38,8 @@
 
 .my-orders {
   overflow: scroll;
-  max-height: 65%;
+  max-height: calc(100vh - 340px);
+	overflow-y: auto;
 }
 
 ::-webkit-scrollbar {
@@ -68,6 +69,7 @@
   font-weight: bold;
 }
 
+
 .primary-button {
   background-color: var(--hospital-green);
   border-radius: 8px;
@@ -79,6 +81,7 @@
   font-weight: bold;
   height: 50px;
 }
+
 @media (max-width: 640px) {
   .MyOrder {
     width: 100%;
